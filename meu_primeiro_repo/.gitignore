@@ -1,0 +1,7 @@
+**/build/
+**/install/
+/datasets/*.hdf5
+/.vscode/
+*.log
+/data/
+!/data/README.md

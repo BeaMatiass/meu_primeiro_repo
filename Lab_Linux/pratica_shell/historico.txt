@@ -1,0 +1,79 @@
+133  git clone https://github.com/EESC-LabRoM/Pratica_Shell.git
+  134  cd Documentos
+  135  ls
+  136  cd Pratica_Shell/
+  137  ls
+  138  cd Práticas\ 2\ -\ Shell/
+  139  ls -a
+  140  cd
+  141  clear
+  142  ls
+  143  ls -a
+  144  cd Documentos
+  145  cd
+  146  mkdir -p Documentos/pratica_shell
+  147  cd Documentos
+  148  ls
+  149  mkdir docs
+  150  ls
+  151  cd pratica_shell/
+  152  ls
+  153  mkdir docs
+  154  mkdir src
+  155  mkdir data
+  156  ls
+  157  cd src
+  158  touch hello_world.cpp
+  159  ls
+  160  cd ..
+  161  touch README.md
+  162  ls
+  163  nano README.md
+  164  cd docs
+  165  touch docs.md
+  166  ls
+  167  nano docs.md
+  168  mv ../../Pratica_Shell/Práticas\ 2\ -\ Shell/dados.csv  ../data/
+  169  tree ../
+  170  mv ../
+  171  mv ../../
+  172  mv ../../Pratica_Shell/
+  173  cd
+  174  cd Documentos
+  175  mv Pratica_Shell/Práticas\ 2\ -\ Shell/logs.txt pratica_shell/data
+  176  tree
+  177  cd pratica_shell/
+  178  ls
+  179  cd data
+  180  ls
+  181  cat -n logs.txt 
+  182  head -n 5 logs.txt 
+  183  tail -n 5 logs.txt 
+  184  grep erro logs.txt 
+  185  grep -i erro logs.txt 
+  186  grep -i erro logs.txt | cat -n logs.txt 
+  187  cat -n logs.txt | grep -i erro 
+  188  cd ..
+  189  ls
+  190  mkdir logs
+  191  ls
+  192  mkdir recordings
+  193  ls
+  194  cd data
+  195  ls
+  196  cd ..
+  197  cp data/logs.txt logs/
+  198  ls
+  199  cd logs
+  200  ls
+  201  cd ..
+  202  cd data
+  203  ls
+  204  cd ..
+  205  mv data/dados.csv recordings/
+  206  ls
+  207  cd recordings/
+  208  ls
+  209  cd
+  210  history
+

@@ -1,0 +1,814 @@
+2026-02-23 04:00:24 [DEBUG] user=carlos ip=169.78.138.238 - Login realizado com sucesso
+2026-02-23 06:45:11 [INFO] user=admin ip=36.226.252.133 - Arquivo carregado
+2026-02-23 10:30:21 [DEBUG] user=admin ip=64.47.101.83 - Conexão estabelecida com o banco
+2026-02-22 14:30:22 [CRITICAL] user=maria ip=196.204.116.120 - Falha ao conectar no banco de dados
+Traceback (most recent call last):
+  File "app.py", line 130, in <module>
+    main()
+  File "services.py", line 76, in main
+    processar_dados()
+  File "database.py", line 21, in processar_dados
+    raise Exception("Erro simulado")
+Exception: Erro simulado
+2026-02-23 06:45:14 [INFO] user=backend ip=199.175.98.125 - Login realizado com sucesso
+2026-02-22 11:29:22 [DEBUG] user=frontend ip=77.240.73.239 - Conexão estabelecida com o banco
+2026-02-22 13:35:21 [ERROR] user=ana ip=73.199.54.41 - Timeout na API externa
+Traceback (most recent call last):
+  File "app.py", line 177, in <module>
+    main()
+  File "services.py", line 11, in main
+    processar_dados()
+  File "database.py", line 126, in processar_dados
+    raise Exception("Erro simulado")
+Exception: Erro simulado
+2026-02-23 10:25:54 [ERROR] user=ana ip=186.31.56.23 - Timeout na API externa
+Traceback (most recent call last):
+  File "app.py", line 188, in <module>
+    main()
+  File "services.py", line 125, in main
+    processar_dados()
+  File "database.py", line 85, in processar_dados
+    raise Exception("Erro simulado")
+Exception: Erro simulado
+2026-02-23 03:23:09 [INFO] user=frontend ip=210.243.55.11 - Conexão estabelecida com o banco
+2026-02-22 19:06:42 [INFO] user=ana ip=227.70.154.222 - Sessão encerrada
+2026-02-23 00:38:44 [INFO] user=api_user ip=136.61.249.210 - Requisição recebida
+2026-02-22 20:27:46 [CRITICAL] user=admin ip=25.45.89.192 - Erro ao processar requisição
+Traceback (most recent call last):
+  File "app.py", line 175, in <module>
+    main()
+  File "services.py", line 80, in main
+    processar_dados()
+  File "database.py", line 200, in processar_dados
+    raise Exception("Erro simulado")
+Exception: Erro simulado
+2026-02-23 06:49:16 [INFO] user=backend ip=184.10.55.239 - Sessão encerrada
+2026-02-23 03:34:56 [INFO] user=joao ip=46.127.109.190 - Cache atualizado
+2026-02-22 22:03:35 [DEBUG] user=backend ip=230.179.11.254 - Requisição recebida
+2026-02-23 05:01:12 [INFO] user=maria ip=218.234.104.34 - Sessão encerrada
+2026-02-22 17:12:09 [ERROR] user=api_user ip=21.57.166.192 - Permissão negada
+Traceback (most recent call last):
+  File "app.py", line 46, in <module>
+    main()
+  File "services.py", line 90, in main
+    processar_dados()
+  File "database.py", line 30, in processar_dados
+    raise Exception("Erro simulado")
+Exception: Erro simulado
+2026-02-23 02:28:24 [INFO] user=sistema ip=218.34.132.193 - Login realizado com sucesso
+2026-02-22 21:36:26 [ERROR] user=api_user ip=4.210.158.234 - Arquivo não encontrado
+Traceback (most recent call last):
+  File "app.py", line 40, in <module>
+    main()
+  File "services.py", line 20, in main
+    processar_dados()
+  File "database.py", line 40, in processar_dados
+    raise Exception("Erro simulado")
+Exception: Erro simulado
+2026-02-22 21:12:46 [ERROR] user=carlos ip=202.9.74.233 - Falha ao conectar no banco de dados
+Traceback (most recent call last):
+  File "app.py", line 76, in <module>
+    main()
+  File "services.py", line 143, in main
+    processar_dados()
+  File "database.py", line 58, in processar_dados
+    raise Exception("Erro simulado")
+Exception: Erro simulado
+2026-02-22 14:54:07 [WARNING] user=ana ip=54.204.25.34 - Tentativa de login inválida
+2026-02-22 14:30:02 [INFO] user=maria ip=147.201.96.50 - Cache atualizado
+2026-02-23 03:22:33 [DEBUG] user=ana ip=199.218.110.27 - Login realizado com sucesso
+2026-02-23 08:56:26 [INFO] user=frontend ip=197.189.94.24 - Sessão encerrada
+2026-02-23 04:43:18 [WARNING] user=joao ip=163.174.142.167 - Tempo de resposta acima do esperado
+2026-02-23 05:46:46 [ERROR] user=joao ip=171.240.234.6 - Falha ao conectar no banco de dados
+Traceback (most recent call last):
+  File "app.py", line 72, in <module>
+    main()
+  File "services.py", line 46, in main
+    processar_dados()
+  File "database.py", line 47, in processar_dados
+    raise Exception("Erro simulado")
+Exception: Erro simulado
+2026-02-23 00:44:09 [INFO] user=sistema ip=238.216.230.75 - Requisição recebida
+2026-02-22 21:04:16 [DEBUG] user=api_user ip=28.58.111.183 - Processamento iniciado
+2026-02-23 03:11:45 [DEBUG] user=frontend ip=59.60.207.189 - Sessão encerrada
+2026-02-23 00:06:23 [DEBUG] user=frontend ip=233.40.2.4 - Login realizado com sucesso
+2026-02-22 22:13:50 [WARNING] user=admin ip=98.173.181.83 - Tentativa de login inválida
+2026-02-22 21:33:17 [WARNING] user=api_user ip=197.7.177.146 - Requisição suspeita detectada
+2026-02-22 13:39:44 [INFO] user=carlos ip=68.182.202.93 - Processamento iniciado
+2026-02-22 17:45:59 [INFO] user=maria ip=90.139.41.72 - Processamento iniciado
+2026-02-23 06:30:13 [INFO] user=admin ip=54.197.78.159 - Requisição recebida
+2026-02-22 23:12:05 [INFO] user=api_user ip=154.161.70.177 - Sessão encerrada
+2026-02-22 17:57:22 [ERROR] user=frontend ip=233.244.208.236 - Arquivo não encontrado
+Traceback (most recent call last):
+  File "app.py", line 145, in <module>
+    main()
+  File "services.py", line 160, in main
+    processar_dados()
+  File "database.py", line 53, in processar_dados
+    raise Exception("Erro simulado")
+Exception: Erro simulado
+2026-02-22 20:30:39 [INFO] user=maria ip=120.234.133.106 - Requisição recebida
+2026-02-23 05:20:38 [WARNING] user=api_user ip=201.232.94.141 - Tempo de resposta acima do esperado
+2026-02-22 16:57:31 [WARNING] user=api_user ip=164.30.159.213 - Tempo de resposta acima do esperado
+2026-02-23 04:35:50 [INFO] user=carlos ip=69.56.183.195 - Login realizado com sucesso
+2026-02-22 12:43:44 [ERROR] user=maria ip=26.69.5.67 - Falha ao conectar no banco de dados
+Traceback (most recent call last):
+  File "app.py", line 154, in <module>
+    main()
+  File "services.py", line 76, in main
+    processar_dados()
+  File "database.py", line 108, in processar_dados
+    raise Exception("Erro simulado")
+Exception: Erro simulado
+2026-02-22 20:36:59 [INFO] user=backend ip=65.210.95.112 - Login realizado com sucesso
+2026-02-22 14:36:04 [WARNING] user=maria ip=196.185.219.191 - Tempo de resposta acima do esperado
+2026-02-23 03:20:37 [INFO] user=carlos ip=222.49.104.155 - Requisição recebida
+2026-02-23 05:44:34 [ERROR] user=api_user ip=11.212.80.81 - Timeout na API externa
+Traceback (most recent call last):
+  File "app.py", line 179, in <module>
+    main()
+  File "services.py", line 144, in main
+    processar_dados()
+  File "database.py", line 137, in processar_dados
+    raise Exception("Erro simulado")
+Exception: Erro simulado
+2026-02-22 14:56:10 [CRITICAL] user=ana ip=177.50.94.198 - Arquivo não encontrado
+Traceback (most recent call last):
+  File "app.py", line 46, in <module>
+    main()
+  File "services.py", line 122, in main
+    processar_dados()
+  File "database.py", line 136, in processar_dados
+    raise Exception("Erro simulado")
+Exception: Erro simulado
+2026-02-22 11:31:49 [DEBUG] user=api_user ip=139.90.101.61 - Cache atualizado
+2026-02-23 07:29:26 [DEBUG] user=ana ip=98.2.109.181 - Processamento iniciado
+2026-02-22 16:47:43 [WARNING] user=carlos ip=82.251.24.250 - Tempo de resposta acima do esperado
+2026-02-23 01:41:23 [INFO] user=frontend ip=208.175.132.8 - Processamento iniciado
+2026-02-23 00:37:29 [INFO] user=maria ip=217.187.82.35 - Login realizado com sucesso
+2026-02-22 14:35:41 [WARNING] user=frontend ip=159.90.138.10 - Uso de memória elevado
+2026-02-22 18:33:09 [CRITICAL] user=ana ip=77.125.170.53 - Falha ao conectar no banco de dados
+Traceback (most recent call last):
+  File "app.py", line 84, in <module>
+    main()
+  File "services.py", line 152, in main
+    processar_dados()
+  File "database.py", line 102, in processar_dados
+    raise Exception("Erro simulado")
+Exception: Erro simulado
+2026-02-23 05:17:47 [INFO] user=joao ip=205.46.142.253 - Login realizado com sucesso
+2026-02-23 06:06:42 [INFO] user=ana ip=7.16.191.83 - Sessão encerrada
+2026-02-22 18:53:52 [ERROR] user=api_user ip=36.10.206.255 - Falha ao conectar no banco de dados
+Traceback (most recent call last):
+  File "app.py", line 130, in <module>
+    main()
+  File "services.py", line 56, in main
+    processar_dados()
+  File "database.py", line 195, in processar_dados
+    raise Exception("Erro simulado")
+Exception: Erro simulado
+2026-02-23 04:02:07 [INFO] user=backend ip=180.209.174.6 - Sessão encerrada
+2026-02-22 12:05:42 [DEBUG] user=carlos ip=172.18.215.46 - Processamento iniciado
+2026-02-23 08:00:16 [WARNING] user=ana ip=101.139.127.51 - Requisição suspeita detectada
+2026-02-22 23:41:56 [INFO] user=maria ip=3.12.80.234 - Requisição recebida
+2026-02-23 09:21:10 [INFO] user=frontend ip=172.91.235.112 - Arquivo carregado
+2026-02-22 22:20:17 [ERROR] user=backend ip=252.2.13.53 - Timeout na API externa
+Traceback (most recent call last):
+  File "app.py", line 41, in <module>
+    main()
+  File "services.py", line 136, in main
+    processar_dados()
+  File "database.py", line 36, in processar_dados
+    raise Exception("Erro simulado")
+Exception: Erro simulado
+2026-02-22 12:16:22 [DEBUG] user=api_user ip=119.134.74.208 - Requisição recebida
+2026-02-23 09:41:14 [WARNING] user=ana ip=75.238.123.93 - Requisição suspeita detectada
+2026-02-23 01:44:59 [DEBUG] user=frontend ip=58.135.158.86 - Sessão encerrada
+2026-02-23 06:56:09 [INFO] user=carlos ip=49.163.52.115 - Sessão encerrada
+2026-02-22 13:28:25 [DEBUG] user=api_user ip=100.226.65.174 - Processamento iniciado
+2026-02-22 23:58:11 [WARNING] user=backend ip=209.199.86.218 - Uso de memória elevado
+2026-02-22 22:04:22 [INFO] user=carlos ip=118.121.221.85 - Arquivo carregado
+2026-02-23 03:50:30 [INFO] user=backend ip=63.127.132.39 - Requisição recebida
+2026-02-22 12:48:11 [DEBUG] user=admin ip=3.135.26.206 - Requisição recebida
+2026-02-23 11:18:52 [CRITICAL] user=frontend ip=70.55.105.162 - Falha ao conectar no banco de dados
+Traceback (most recent call last):
+  File "app.py", line 113, in <module>
+    main()
+  File "services.py", line 70, in main
+    processar_dados()
+  File "database.py", line 44, in processar_dados
+    raise Exception("Erro simulado")
+Exception: Erro simulado
+2026-02-22 20:58:26 [ERROR] user=joao ip=104.234.177.216 - Permissão negada
+Traceback (most recent call last):
+  File "app.py", line 86, in <module>
+    main()
+  File "services.py", line 87, in main
+    processar_dados()
+  File "database.py", line 23, in processar_dados
+    raise Exception("Erro simulado")
+Exception: Erro simulado
+2026-02-22 19:44:48 [INFO] user=ana ip=250.109.175.25 - Requisição recebida
+2026-02-22 11:37:26 [INFO] user=maria ip=59.213.15.127 - Requisição recebida
+2026-02-22 11:33:24 [INFO] user=joao ip=125.136.202.110 - Cache atualizado
+2026-02-23 03:01:54 [INFO] user=backend ip=215.173.173.191 - Login realizado com sucesso
+2026-02-22 14:19:18 [INFO] user=sistema ip=52.10.22.97 - Arquivo carregado
+2026-02-23 06:43:40 [WARNING] user=api_user ip=114.243.226.226 - Requisição suspeita detectada
+2026-02-23 08:52:39 [INFO] user=sistema ip=157.147.86.101 - Processamento iniciado
+2026-02-23 00:18:27 [WARNING] user=sistema ip=176.252.254.99 - Tempo de resposta acima do esperado
+2026-02-22 16:26:52 [WARNING] user=sistema ip=81.205.215.2 - Uso de memória elevado
+2026-02-23 01:52:07 [DEBUG] user=api_user ip=192.152.143.5 - Requisição recebida
+2026-02-23 01:44:51 [INFO] user=carlos ip=106.20.66.214 - Cache atualizado
+2026-02-22 14:17:10 [DEBUG] user=frontend ip=42.94.64.204 - Conexão estabelecida com o banco
+2026-02-22 15:20:18 [INFO] user=api_user ip=91.128.45.51 - Requisição recebida
+2026-02-23 06:13:05 [INFO] user=admin ip=251.231.217.152 - Requisição recebida
+2026-02-23 01:41:20 [DEBUG] user=maria ip=82.201.73.59 - Sessão encerrada
+2026-02-22 19:29:08 [INFO] user=admin ip=144.217.28.138 - Requisição recebida
+2026-02-22 20:39:21 [INFO] user=frontend ip=1.54.100.57 - Requisição recebida
+2026-02-23 08:48:48 [INFO] user=api_user ip=175.132.31.175 - Arquivo carregado
+2026-02-22 18:30:25 [DEBUG] user=frontend ip=109.22.97.94 - Requisição recebida
+2026-02-23 01:30:54 [INFO] user=sistema ip=200.71.16.6 - Cache atualizado
+2026-02-23 10:15:55 [WARNING] user=api_user ip=95.2.15.245 - Tempo de resposta acima do esperado
+2026-02-22 20:30:07 [INFO] user=sistema ip=139.74.43.199 - Processamento iniciado
+2026-02-22 17:57:38 [INFO] user=carlos ip=181.235.130.219 - Conexão estabelecida com o banco
+2026-02-23 03:14:21 [INFO] user=joao ip=115.185.237.147 - Sessão encerrada
+2026-02-22 20:38:56 [INFO] user=ana ip=194.183.130.135 - Conexão estabelecida com o banco
+2026-02-22 13:50:13 [DEBUG] user=carlos ip=68.184.252.202 - Conexão estabelecida com o banco
+2026-02-23 09:42:50 [INFO] user=ana ip=237.101.134.233 - Sessão encerrada
+2026-02-22 17:25:43 [INFO] user=backend ip=19.236.180.239 - Cache atualizado
+2026-02-22 19:21:44 [INFO] user=maria ip=88.169.52.167 - Processamento iniciado
+2026-02-22 18:40:42 [INFO] user=sistema ip=138.79.181.170 - Login realizado com sucesso
+2026-02-22 12:03:35 [INFO] user=frontend ip=208.27.39.28 - Requisição recebida
+2026-02-23 02:57:16 [INFO] user=sistema ip=122.44.113.123 - Processamento iniciado
+2026-02-23 07:57:50 [INFO] user=joao ip=208.171.183.166 - Requisição recebida
+2026-02-23 02:29:51 [ERROR] user=carlos ip=184.15.109.137 - Timeout na API externa
+Traceback (most recent call last):
+  File "app.py", line 83, in <module>
+    main()
+  File "services.py", line 91, in main
+    processar_dados()
+  File "database.py", line 171, in processar_dados
+    raise Exception("Erro simulado")
+Exception: Erro simulado
+2026-02-23 00:18:34 [INFO] user=backend ip=202.123.253.83 - Processamento iniciado
+2026-02-22 12:26:18 [ERROR] user=frontend ip=7.138.175.173 - Timeout na API externa
+Traceback (most recent call last):
+  File "app.py", line 90, in <module>
+    main()
+  File "services.py", line 105, in main
+    processar_dados()
+  File "database.py", line 79, in processar_dados
+    raise Exception("Erro simulado")
+Exception: Erro simulado
+2026-02-22 15:06:41 [CRITICAL] user=api_user ip=127.32.6.36 - Timeout na API externa
+Traceback (most recent call last):
+  File "app.py", line 174, in <module>
+    main()
+  File "services.py", line 31, in main
+    processar_dados()
+  File "database.py", line 152, in processar_dados
+    raise Exception("Erro simulado")
+Exception: Erro simulado
+2026-02-22 22:15:21 [INFO] user=ana ip=108.202.208.37 - Requisição recebida
+2026-02-22 13:55:00 [INFO] user=joao ip=31.46.80.97 - Conexão estabelecida com o banco
+2026-02-22 17:49:09 [WARNING] user=api_user ip=145.83.53.162 - Uso de memória elevado
+2026-02-23 03:07:20 [INFO] user=joao ip=88.160.249.65 - Conexão estabelecida com o banco
+2026-02-23 06:30:06 [INFO] user=api_user ip=168.52.98.3 - Arquivo carregado
+2026-02-23 04:11:33 [DEBUG] user=sistema ip=8.179.49.142 - Login realizado com sucesso
+2026-02-22 16:30:24 [WARNING] user=joao ip=83.167.23.142 - Token próximo de expirar
+2026-02-23 09:21:51 [WARNING] user=maria ip=81.238.136.66 - Tempo de resposta acima do esperado
+2026-02-23 05:34:33 [DEBUG] user=admin ip=111.20.102.218 - Requisição recebida
+2026-02-22 20:46:56 [INFO] user=backend ip=68.79.144.26 - Arquivo carregado
+2026-02-22 20:59:18 [DEBUG] user=backend ip=190.64.93.249 - Requisição recebida
+2026-02-22 18:06:36 [WARNING] user=ana ip=66.45.87.19 - Tempo de resposta acima do esperado
+2026-02-22 20:05:32 [INFO] user=carlos ip=250.174.161.170 - Sessão encerrada
+2026-02-22 18:39:05 [INFO] user=api_user ip=94.16.224.245 - Login realizado com sucesso
+2026-02-22 13:57:13 [INFO] user=api_user ip=205.139.249.24 - Processamento iniciado
+2026-02-23 01:34:30 [WARNING] user=maria ip=84.37.158.50 - Tempo de resposta acima do esperado
+2026-02-23 03:20:50 [CRITICAL] user=admin ip=159.105.180.112 - Arquivo não encontrado
+Traceback (most recent call last):
+  File "app.py", line 150, in <module>
+    main()
+  File "services.py", line 32, in main
+    processar_dados()
+  File "database.py", line 184, in processar_dados
+    raise Exception("Erro simulado")
+Exception: Erro simulado
+2026-02-23 07:18:51 [WARNING] user=backend ip=119.81.219.76 - Token próximo de expirar
+2026-02-22 18:07:11 [DEBUG] user=carlos ip=147.160.105.100 - Conexão estabelecida com o banco
+2026-02-22 15:02:45 [WARNING] user=api_user ip=117.179.127.43 - Tentativa de login inválida
+2026-02-22 23:54:48 [ERROR] user=joao ip=85.245.211.250 - Arquivo não encontrado
+Traceback (most recent call last):
+  File "app.py", line 87, in <module>
+    main()
+  File "services.py", line 190, in main
+    processar_dados()
+  File "database.py", line 12, in processar_dados
+    raise Exception("Erro simulado")
+Exception: Erro simulado
+2026-02-22 18:45:52 [INFO] user=frontend ip=4.75.11.208 - Login realizado com sucesso
+2026-02-22 21:55:22 [INFO] user=admin ip=35.232.125.175 - Login realizado com sucesso
+2026-02-22 12:32:04 [WARNING] user=api_user ip=241.211.208.78 - Token próximo de expirar
+2026-02-22 23:25:24 [ERROR] user=api_user ip=57.39.171.7 - Falha ao conectar no banco de dados
+Traceback (most recent call last):
+  File "app.py", line 14, in <module>
+    main()
+  File "services.py", line 132, in main
+    processar_dados()
+  File "database.py", line 142, in processar_dados
+    raise Exception("Erro simulado")
+Exception: Erro simulado
+2026-02-22 14:17:11 [CRITICAL] user=joao ip=17.157.108.69 - Falha ao conectar no banco de dados
+Traceback (most recent call last):
+  File "app.py", line 37, in <module>
+    main()
+  File "services.py", line 37, in main
+    processar_dados()
+  File "database.py", line 34, in processar_dados
+    raise Exception("Erro simulado")
+Exception: Erro simulado
+2026-02-23 07:30:51 [INFO] user=frontend ip=50.210.255.105 - Sessão encerrada
+2026-02-22 21:18:53 [DEBUG] user=maria ip=20.133.91.181 - Arquivo carregado
+2026-02-22 15:28:57 [INFO] user=api_user ip=74.69.234.102 - Conexão estabelecida com o banco
+2026-02-22 13:54:27 [INFO] user=joao ip=216.55.14.31 - Processamento iniciado
+2026-02-23 07:24:38 [WARNING] user=admin ip=50.43.126.95 - Tentativa de login inválida
+2026-02-22 12:50:28 [INFO] user=sistema ip=2.126.33.208 - Sessão encerrada
+2026-02-22 21:36:09 [WARNING] user=maria ip=199.182.187.174 - Token próximo de expirar
+2026-02-23 11:00:31 [DEBUG] user=backend ip=105.12.69.91 - Requisição recebida
+2026-02-23 10:20:30 [INFO] user=admin ip=186.219.90.211 - Conexão estabelecida com o banco
+2026-02-22 18:29:21 [INFO] user=frontend ip=21.223.138.11 - Sessão encerrada
+2026-02-23 07:19:17 [WARNING] user=admin ip=230.42.159.141 - Tentativa de login inválida
+2026-02-22 20:49:43 [WARNING] user=carlos ip=227.92.61.8 - Uso de memória elevado
+2026-02-23 01:16:09 [INFO] user=admin ip=240.71.134.161 - Processamento iniciado
+2026-02-22 16:51:57 [WARNING] user=frontend ip=106.61.243.43 - Requisição suspeita detectada
+2026-02-23 01:31:02 [INFO] user=sistema ip=230.180.105.60 - Processamento iniciado
+2026-02-22 13:24:27 [ERROR] user=admin ip=67.64.199.238 - Falha ao conectar no banco de dados
+Traceback (most recent call last):
+  File "app.py", line 71, in <module>
+    main()
+  File "services.py", line 144, in main
+    processar_dados()
+  File "database.py", line 109, in processar_dados
+    raise Exception("Erro simulado")
+Exception: Erro simulado
+2026-02-23 10:10:43 [WARNING] user=backend ip=78.31.1.1 - Tentativa de login inválida
+2026-02-22 12:42:28 [ERROR] user=maria ip=45.121.66.159 - Falha ao conectar no banco de dados
+Traceback (most recent call last):
+  File "app.py", line 178, in <module>
+    main()
+  File "services.py", line 165, in main
+    processar_dados()
+  File "database.py", line 176, in processar_dados
+    raise Exception("Erro simulado")
+Exception: Erro simulado
+2026-02-23 04:59:46 [INFO] user=admin ip=249.193.150.203 - Processamento iniciado
+2026-02-23 06:34:33 [DEBUG] user=frontend ip=20.206.58.230 - Sessão encerrada
+2026-02-23 11:18:38 [INFO] user=carlos ip=157.191.119.254 - Requisição recebida
+2026-02-22 12:36:59 [WARNING] user=sistema ip=98.249.90.123 - Token próximo de expirar
+2026-02-22 19:51:43 [WARNING] user=sistema ip=219.198.165.253 - Tentativa de login inválida
+2026-02-22 19:03:11 [INFO] user=maria ip=224.250.158.29 - Arquivo carregado
+2026-02-22 19:38:26 [INFO] user=admin ip=220.55.39.203 - Arquivo carregado
+2026-02-23 01:42:45 [INFO] user=frontend ip=86.216.37.128 - Login realizado com sucesso
+2026-02-22 22:15:47 [INFO] user=frontend ip=211.15.23.41 - Sessão encerrada
+2026-02-23 08:22:29 [INFO] user=frontend ip=208.37.148.201 - Cache atualizado
+2026-02-22 21:09:13 [INFO] user=api_user ip=176.125.117.237 - Cache atualizado
+2026-02-22 12:45:06 [INFO] user=frontend ip=79.64.73.217 - Processamento iniciado
+2026-02-23 08:10:55 [INFO] user=joao ip=149.82.168.178 - Arquivo carregado
+2026-02-23 11:04:24 [ERROR] user=backend ip=122.202.108.127 - Arquivo não encontrado
+Traceback (most recent call last):
+  File "app.py", line 109, in <module>
+    main()
+  File "services.py", line 178, in main
+    processar_dados()
+  File "database.py", line 146, in processar_dados
+    raise Exception("Erro simulado")
+Exception: Erro simulado
+2026-02-23 02:58:42 [INFO] user=frontend ip=177.153.21.130 - Conexão estabelecida com o banco
+2026-02-23 02:17:58 [DEBUG] user=maria ip=31.65.2.139 - Requisição recebida
+2026-02-23 05:51:33 [INFO] user=admin ip=194.166.161.129 - Arquivo carregado
+2026-02-22 22:32:52 [INFO] user=maria ip=143.238.39.114 - Processamento iniciado
+2026-02-23 08:12:47 [WARNING] user=ana ip=163.201.42.239 - Token próximo de expirar
+2026-02-22 15:08:48 [INFO] user=sistema ip=215.197.207.102 - Login realizado com sucesso
+2026-02-22 18:24:07 [INFO] user=sistema ip=105.107.96.168 - Cache atualizado
+2026-02-22 13:24:24 [INFO] user=admin ip=207.249.157.128 - Login realizado com sucesso
+2026-02-23 02:18:20 [DEBUG] user=carlos ip=36.104.89.30 - Processamento iniciado
+2026-02-23 01:53:45 [DEBUG] user=ana ip=134.26.105.64 - Conexão estabelecida com o banco
+2026-02-22 17:55:19 [INFO] user=sistema ip=146.129.251.53 - Arquivo carregado
+2026-02-23 03:10:55 [INFO] user=joao ip=243.52.78.218 - Login realizado com sucesso
+2026-02-22 13:32:18 [INFO] user=carlos ip=98.92.89.112 - Login realizado com sucesso
+2026-02-23 07:08:04 [INFO] user=api_user ip=219.144.76.252 - Requisição recebida
+2026-02-22 23:49:06 [INFO] user=backend ip=12.178.139.81 - Cache atualizado
+2026-02-23 05:34:21 [INFO] user=ana ip=221.24.207.90 - Conexão estabelecida com o banco
+2026-02-22 23:29:27 [CRITICAL] user=admin ip=139.25.67.54 - Erro ao processar requisição
+Traceback (most recent call last):
+  File "app.py", line 77, in <module>
+    main()
+  File "services.py", line 52, in main
+    processar_dados()
+  File "database.py", line 103, in processar_dados
+    raise Exception("Erro simulado")
+Exception: Erro simulado
+2026-02-23 09:56:35 [ERROR] user=frontend ip=163.195.195.251 - Permissão negada
+Traceback (most recent call last):
+  File "app.py", line 131, in <module>
+    main()
+  File "services.py", line 27, in main
+    processar_dados()
+  File "database.py", line 75, in processar_dados
+    raise Exception("Erro simulado")
+Exception: Erro simulado
+2026-02-23 03:57:32 [DEBUG] user=sistema ip=17.65.55.31 - Login realizado com sucesso
+2026-02-23 02:20:27 [WARNING] user=api_user ip=248.71.252.232 - Tentativa de login inválida
+2026-02-23 06:34:03 [DEBUG] user=ana ip=126.108.51.101 - Arquivo carregado
+2026-02-23 08:58:02 [ERROR] user=ana ip=159.238.243.41 - Permissão negada
+Traceback (most recent call last):
+  File "app.py", line 92, in <module>
+    main()
+  File "services.py", line 42, in main
+    processar_dados()
+  File "database.py", line 188, in processar_dados
+    raise Exception("Erro simulado")
+Exception: Erro simulado
+2026-02-23 02:35:53 [INFO] user=carlos ip=101.26.149.69 - Conexão estabelecida com o banco
+2026-02-22 22:18:14 [INFO] user=ana ip=15.48.239.178 - Login realizado com sucesso
+2026-02-23 02:40:56 [DEBUG] user=ana ip=254.51.12.78 - Processamento iniciado
+2026-02-22 13:28:30 [WARNING] user=frontend ip=120.54.87.90 - Token próximo de expirar
+2026-02-22 23:07:36 [ERROR] user=carlos ip=110.68.95.165 - Timeout na API externa
+Traceback (most recent call last):
+  File "app.py", line 90, in <module>
+    main()
+  File "services.py", line 163, in main
+    processar_dados()
+  File "database.py", line 21, in processar_dados
+    raise Exception("Erro simulado")
+Exception: Erro simulado
+2026-02-23 04:06:16 [INFO] user=ana ip=119.47.208.142 - Processamento iniciado
+2026-02-23 07:33:55 [INFO] user=frontend ip=226.250.140.24 - Login realizado com sucesso
+2026-02-23 09:24:24 [WARNING] user=backend ip=235.197.239.39 - Token próximo de expirar
+2026-02-23 04:52:11 [INFO] user=sistema ip=60.84.16.197 - Cache atualizado
+2026-02-23 04:58:57 [ERROR] user=joao ip=175.77.170.32 - Arquivo não encontrado
+Traceback (most recent call last):
+  File "app.py", line 140, in <module>
+    main()
+  File "services.py", line 87, in main
+    processar_dados()
+  File "database.py", line 74, in processar_dados
+    raise Exception("Erro simulado")
+Exception: Erro simulado
+2026-02-23 05:34:43 [WARNING] user=maria ip=31.162.246.134 - Token próximo de expirar
+2026-02-22 20:49:04 [INFO] user=carlos ip=122.228.175.114 - Processamento iniciado
+2026-02-22 15:41:53 [ERROR] user=backend ip=31.96.178.159 - Arquivo não encontrado
+Traceback (most recent call last):
+  File "app.py", line 105, in <module>
+    main()
+  File "services.py", line 29, in main
+    processar_dados()
+  File "database.py", line 149, in processar_dados
+    raise Exception("Erro simulado")
+Exception: Erro simulado
+2026-02-22 16:19:02 [ERROR] user=maria ip=253.211.226.234 - Timeout na API externa
+Traceback (most recent call last):
+  File "app.py", line 185, in <module>
+    main()
+  File "services.py", line 115, in main
+    processar_dados()
+  File "database.py", line 95, in processar_dados
+    raise Exception("Erro simulado")
+Exception: Erro simulado
+2026-02-22 14:57:51 [INFO] user=carlos ip=55.24.7.227 - Processamento iniciado
+2026-02-23 00:16:44 [INFO] user=admin ip=167.77.204.97 - Login realizado com sucesso
+2026-02-23 04:07:13 [ERROR] user=ana ip=252.71.171.36 - Arquivo não encontrado
+Traceback (most recent call last):
+  File "app.py", line 29, in <module>
+    main()
+  File "services.py", line 149, in main
+    processar_dados()
+  File "database.py", line 66, in processar_dados
+    raise Exception("Erro simulado")
+Exception: Erro simulado
+2026-02-23 06:10:34 [INFO] user=sistema ip=87.94.226.200 - Processamento iniciado
+2026-02-22 20:15:54 [WARNING] user=backend ip=81.209.222.181 - Token próximo de expirar
+2026-02-23 07:11:59 [INFO] user=backend ip=196.30.170.155 - Sessão encerrada
+2026-02-23 09:27:31 [WARNING] user=carlos ip=90.113.246.3 - Requisição suspeita detectada
+2026-02-22 22:29:00 [INFO] user=ana ip=208.161.13.178 - Cache atualizado
+2026-02-23 02:38:18 [INFO] user=frontend ip=192.58.69.81 - Arquivo carregado
+2026-02-22 13:37:59 [INFO] user=carlos ip=137.104.183.3 - Processamento iniciado
+2026-02-23 05:39:18 [INFO] user=carlos ip=22.224.245.90 - Processamento iniciado
+2026-02-23 02:43:41 [WARNING] user=admin ip=131.35.126.247 - Tempo de resposta acima do esperado
+2026-02-23 08:44:45 [ERROR] user=api_user ip=32.108.77.143 - Permissão negada
+Traceback (most recent call last):
+  File "app.py", line 132, in <module>
+    main()
+  File "services.py", line 176, in main
+    processar_dados()
+  File "database.py", line 121, in processar_dados
+    raise Exception("Erro simulado")
+Exception: Erro simulado
+2026-02-22 11:45:21 [INFO] user=sistema ip=246.121.176.151 - Arquivo carregado
+2026-02-22 21:33:38 [ERROR] user=maria ip=254.66.177.234 - Arquivo não encontrado
+Traceback (most recent call last):
+  File "app.py", line 37, in <module>
+    main()
+  File "services.py", line 46, in main
+    processar_dados()
+  File "database.py", line 22, in processar_dados
+    raise Exception("Erro simulado")
+Exception: Erro simulado
+2026-02-23 00:45:41 [WARNING] user=admin ip=171.170.125.104 - Tempo de resposta acima do esperado
+2026-02-22 15:56:07 [WARNING] user=joao ip=12.225.100.254 - Tentativa de login inválida
+2026-02-23 09:26:09 [INFO] user=sistema ip=79.22.202.239 - Arquivo carregado
+2026-02-22 16:10:30 [INFO] user=ana ip=188.38.229.253 - Sessão encerrada
+2026-02-22 22:44:52 [INFO] user=api_user ip=36.44.255.44 - Login realizado com sucesso
+2026-02-23 07:12:06 [WARNING] user=backend ip=57.103.64.219 - Requisição suspeita detectada
+2026-02-22 18:10:17 [WARNING] user=admin ip=195.83.103.137 - Tempo de resposta acima do esperado
+2026-02-23 06:52:41 [WARNING] user=sistema ip=132.176.194.71 - Requisição suspeita detectada
+2026-02-22 19:28:08 [INFO] user=carlos ip=185.202.140.212 - Requisição recebida
+2026-02-23 09:09:58 [DEBUG] user=joao ip=3.226.150.216 - Conexão estabelecida com o banco
+2026-02-22 15:38:08 [WARNING] user=joao ip=206.157.206.200 - Token próximo de expirar
+2026-02-23 00:41:26 [WARNING] user=sistema ip=7.175.161.31 - Token próximo de expirar
+2026-02-22 21:07:11 [INFO] user=ana ip=51.79.75.220 - Arquivo carregado
+2026-02-22 13:39:05 [CRITICAL] user=sistema ip=165.22.129.70 - Erro ao processar requisição
+Traceback (most recent call last):
+  File "app.py", line 47, in <module>
+    main()
+  File "services.py", line 76, in main
+    processar_dados()
+  File "database.py", line 14, in processar_dados
+    raise Exception("Erro simulado")
+Exception: Erro simulado
+2026-02-23 08:20:21 [INFO] user=backend ip=162.106.45.128 - Processamento iniciado
+2026-02-22 12:10:54 [INFO] user=api_user ip=41.1.16.6 - Arquivo carregado
+2026-02-23 01:03:00 [INFO] user=maria ip=91.75.189.109 - Login realizado com sucesso
+2026-02-23 00:40:42 [INFO] user=ana ip=191.210.8.50 - Login realizado com sucesso
+2026-02-22 15:20:48 [INFO] user=admin ip=67.39.30.4 - Cache atualizado
+2026-02-23 06:04:40 [WARNING] user=frontend ip=212.16.214.98 - Requisição suspeita detectada
+2026-02-23 03:05:44 [INFO] user=carlos ip=113.207.18.196 - Arquivo carregado
+2026-02-23 00:38:46 [INFO] user=sistema ip=38.249.65.214 - Conexão estabelecida com o banco
+2026-02-23 03:58:10 [WARNING] user=joao ip=248.105.98.49 - Requisição suspeita detectada
+2026-02-23 01:20:35 [ERROR] user=maria ip=229.213.188.186 - Erro ao processar requisição
+Traceback (most recent call last):
+  File "app.py", line 40, in <module>
+    main()
+  File "services.py", line 117, in main
+    processar_dados()
+  File "database.py", line 167, in processar_dados
+    raise Exception("Erro simulado")
+Exception: Erro simulado
+2026-02-23 06:44:35 [DEBUG] user=joao ip=241.54.251.152 - Requisição recebida
+2026-02-23 09:53:19 [WARNING] user=joao ip=14.19.119.37 - Requisição suspeita detectada
+2026-02-23 00:28:46 [WARNING] user=maria ip=48.75.130.120 - Tentativa de login inválida
+2026-02-22 21:34:49 [DEBUG] user=sistema ip=66.129.37.1 - Sessão encerrada
+2026-02-23 01:43:25 [INFO] user=joao ip=10.54.228.57 - Processamento iniciado
+2026-02-22 13:10:22 [DEBUG] user=api_user ip=45.13.122.35 - Processamento iniciado
+2026-02-23 10:57:37 [WARNING] user=sistema ip=101.55.36.107 - Tentativa de login inválida
+2026-02-23 06:16:27 [DEBUG] user=frontend ip=202.5.156.211 - Conexão estabelecida com o banco
+2026-02-23 01:33:04 [INFO] user=ana ip=187.167.201.131 - Cache atualizado
+2026-02-22 21:50:31 [DEBUG] user=joao ip=117.138.182.228 - Conexão estabelecida com o banco
+2026-02-22 18:08:52 [DEBUG] user=carlos ip=155.113.55.179 - Requisição recebida
+2026-02-22 21:45:39 [WARNING] user=joao ip=214.97.193.239 - Tentativa de login inválida
+2026-02-23 08:02:20 [INFO] user=backend ip=179.7.219.198 - Cache atualizado
+2026-02-23 09:02:02 [INFO] user=sistema ip=136.199.229.241 - Requisição recebida
+2026-02-23 02:40:39 [DEBUG] user=ana ip=237.208.15.173 - Login realizado com sucesso
+2026-02-23 01:13:20 [INFO] user=backend ip=152.35.135.34 - Processamento iniciado
+2026-02-23 02:40:12 [ERROR] user=frontend ip=247.148.91.202 - Falha ao conectar no banco de dados
+Traceback (most recent call last):
+  File "app.py", line 67, in <module>
+    main()
+  File "services.py", line 165, in main
+    processar_dados()
+  File "database.py", line 19, in processar_dados
+    raise Exception("Erro simulado")
+Exception: Erro simulado
+2026-02-23 06:07:57 [INFO] user=carlos ip=14.221.218.99 - Processamento iniciado
+2026-02-23 03:11:35 [DEBUG] user=backend ip=186.66.61.123 - Sessão encerrada
+2026-02-22 16:21:49 [WARNING] user=carlos ip=23.203.15.88 - Uso de memória elevado
+2026-02-23 03:32:30 [DEBUG] user=ana ip=127.146.197.83 - Cache atualizado
+2026-02-23 06:21:08 [ERROR] user=sistema ip=156.200.211.207 - Permissão negada
+Traceback (most recent call last):
+  File "app.py", line 131, in <module>
+    main()
+  File "services.py", line 161, in main
+    processar_dados()
+  File "database.py", line 194, in processar_dados
+    raise Exception("Erro simulado")
+Exception: Erro simulado
+2026-02-23 08:25:02 [INFO] user=maria ip=33.196.171.128 - Conexão estabelecida com o banco
+2026-02-22 20:55:08 [ERROR] user=admin ip=78.11.204.92 - Falha ao conectar no banco de dados
+Traceback (most recent call last):
+  File "app.py", line 36, in <module>
+    main()
+  File "services.py", line 51, in main
+    processar_dados()
+  File "database.py", line 41, in processar_dados
+    raise Exception("Erro simulado")
+Exception: Erro simulado
+2026-02-22 23:17:21 [CRITICAL] user=admin ip=220.30.4.29 - Falha ao conectar no banco de dados
+Traceback (most recent call last):
+  File "app.py", line 29, in <module>
+    main()
+  File "services.py", line 50, in main
+    processar_dados()
+  File "database.py", line 50, in processar_dados
+    raise Exception("Erro simulado")
+Exception: Erro simulado
+2026-02-22 19:41:01 [INFO] user=maria ip=140.211.5.147 - Requisição recebida
+2026-02-23 11:15:32 [INFO] user=maria ip=178.159.217.241 - Conexão estabelecida com o banco
+2026-02-22 12:50:43 [WARNING] user=api_user ip=50.145.71.202 - Token próximo de expirar
+2026-02-23 02:36:31 [INFO] user=ana ip=61.77.249.209 - Processamento iniciado
+2026-02-22 15:42:59 [INFO] user=ana ip=19.65.22.108 - Sessão encerrada
+2026-02-23 07:43:24 [WARNING] user=ana ip=96.167.90.58 - Tempo de resposta acima do esperado
+2026-02-22 23:12:59 [ERROR] user=carlos ip=23.16.223.53 - Falha ao conectar no banco de dados
+Traceback (most recent call last):
+  File "app.py", line 182, in <module>
+    main()
+  File "services.py", line 78, in main
+    processar_dados()
+  File "database.py", line 81, in processar_dados
+    raise Exception("Erro simulado")
+Exception: Erro simulado
+2026-02-22 23:29:49 [DEBUG] user=maria ip=56.130.226.109 - Processamento iniciado
+2026-02-23 00:28:02 [INFO] user=joao ip=4.240.127.70 - Sessão encerrada
+2026-02-22 16:49:03 [INFO] user=api_user ip=19.177.93.186 - Sessão encerrada
+2026-02-23 04:52:51 [ERROR] user=carlos ip=55.4.243.252 - Falha ao conectar no banco de dados
+Traceback (most recent call last):
+  File "app.py", line 41, in <module>
+    main()
+  File "services.py", line 164, in main
+    processar_dados()
+  File "database.py", line 95, in processar_dados
+    raise Exception("Erro simulado")
+Exception: Erro simulado
+2026-02-22 19:12:06 [INFO] user=maria ip=169.103.98.126 - Requisição recebida
+2026-02-23 10:04:03 [INFO] user=frontend ip=76.209.149.60 - Cache atualizado
+2026-02-23 06:06:29 [INFO] user=maria ip=47.59.106.194 - Arquivo carregado
+2026-02-23 04:25:44 [INFO] user=backend ip=81.124.43.166 - Cache atualizado
+2026-02-22 14:35:06 [INFO] user=frontend ip=206.67.159.5 - Conexão estabelecida com o banco
+2026-02-22 17:13:12 [DEBUG] user=sistema ip=208.250.93.93 - Requisição recebida
+2026-02-23 05:55:25 [WARNING] user=carlos ip=135.210.73.218 - Requisição suspeita detectada
+2026-02-22 12:37:01 [WARNING] user=backend ip=78.68.96.18 - Tempo de resposta acima do esperado
+2026-02-23 08:29:09 [ERROR] user=admin ip=13.250.23.149 - Erro ao processar requisição
+Traceback (most recent call last):
+  File "app.py", line 192, in <module>
+    main()
+  File "services.py", line 148, in main
+    processar_dados()
+  File "database.py", line 81, in processar_dados
+    raise Exception("Erro simulado")
+Exception: Erro simulado
+2026-02-22 17:28:27 [INFO] user=frontend ip=177.189.78.110 - Login realizado com sucesso
+2026-02-23 03:55:40 [WARNING] user=joao ip=25.199.203.47 - Token próximo de expirar
+2026-02-22 15:06:50 [WARNING] user=admin ip=87.195.67.135 - Tentativa de login inválida
+2026-02-23 11:00:54 [INFO] user=frontend ip=141.224.91.107 - Arquivo carregado
+2026-02-22 12:46:41 [WARNING] user=frontend ip=152.41.44.119 - Requisição suspeita detectada
+2026-02-23 03:59:50 [INFO] user=frontend ip=164.207.179.75 - Cache atualizado
+2026-02-22 16:26:58 [DEBUG] user=maria ip=208.181.102.104 - Conexão estabelecida com o banco
+2026-02-22 18:15:04 [INFO] user=frontend ip=92.198.22.107 - Requisição recebida
+2026-02-23 10:36:24 [CRITICAL] user=carlos ip=73.245.179.65 - Permissão negada
+Traceback (most recent call last):
+  File "app.py", line 157, in <module>
+    main()
+  File "services.py", line 81, in main
+    processar_dados()
+  File "database.py", line 154, in processar_dados
+    raise Exception("Erro simulado")
+Exception: Erro simulado
+2026-02-23 05:50:54 [ERROR] user=maria ip=164.57.165.135 - Timeout na API externa
+Traceback (most recent call last):
+  File "app.py", line 46, in <module>
+    main()
+  File "services.py", line 38, in main
+    processar_dados()
+  File "database.py", line 171, in processar_dados
+    raise Exception("Erro simulado")
+Exception: Erro simulado
+2026-02-23 05:43:58 [DEBUG] user=ana ip=119.14.39.129 - Cache atualizado
+2026-02-22 16:22:57 [WARNING] user=ana ip=209.85.180.31 - Token próximo de expirar
+2026-02-23 08:41:24 [INFO] user=carlos ip=144.164.215.249 - Requisição recebida
+2026-02-23 01:50:40 [ERROR] user=sistema ip=105.141.160.144 - Arquivo não encontrado
+Traceback (most recent call last):
+  File "app.py", line 11, in <module>
+    main()
+  File "services.py", line 72, in main
+    processar_dados()
+  File "database.py", line 57, in processar_dados
+    raise Exception("Erro simulado")
+Exception: Erro simulado
+2026-02-22 20:28:12 [INFO] user=maria ip=107.245.251.20 - Cache atualizado
+2026-02-23 00:08:39 [ERROR] user=joao ip=35.8.225.215 - Arquivo não encontrado
+Traceback (most recent call last):
+  File "app.py", line 124, in <module>
+    main()
+  File "services.py", line 113, in main
+    processar_dados()
+  File "database.py", line 162, in processar_dados
+    raise Exception("Erro simulado")
+Exception: Erro simulado
+2026-02-23 08:15:57 [INFO] user=joao ip=41.121.42.27 - Login realizado com sucesso
+2026-02-22 23:30:36 [DEBUG] user=admin ip=9.205.40.113 - Sessão encerrada
+2026-02-23 10:48:04 [ERROR] user=joao ip=125.61.159.44 - Arquivo não encontrado
+Traceback (most recent call last):
+  File "app.py", line 196, in <module>
+    main()
+  File "services.py", line 175, in main
+    processar_dados()
+  File "database.py", line 48, in processar_dados
+    raise Exception("Erro simulado")
+Exception: Erro simulado
+2026-02-23 09:40:10 [DEBUG] user=joao ip=204.231.7.237 - Sessão encerrada
+2026-02-23 02:11:54 [DEBUG] user=carlos ip=183.44.166.129 - Arquivo carregado
+2026-02-23 09:27:22 [INFO] user=sistema ip=155.184.168.178 - Arquivo carregado
+2026-02-23 03:58:52 [WARNING] user=frontend ip=21.71.186.29 - Token próximo de expirar
+2026-02-23 02:00:12 [WARNING] user=backend ip=203.213.21.225 - Uso de memória elevado
+2026-02-22 13:21:51 [INFO] user=admin ip=243.133.236.164 - Sessão encerrada
+2026-02-23 00:28:36 [INFO] user=admin ip=80.220.40.172 - Login realizado com sucesso
+2026-02-23 10:39:25 [DEBUG] user=backend ip=223.95.166.168 - Arquivo carregado
+2026-02-22 22:14:49 [DEBUG] user=carlos ip=26.43.84.47 - Cache atualizado
+2026-02-22 17:26:31 [ERROR] user=ana ip=74.103.194.204 - Permissão negada
+Traceback (most recent call last):
+  File "app.py", line 71, in <module>
+    main()
+  File "services.py", line 157, in main
+    processar_dados()
+  File "database.py", line 121, in processar_dados
+    raise Exception("Erro simulado")
+Exception: Erro simulado
+2026-02-22 19:16:31 [ERROR] user=admin ip=54.122.51.99 - Arquivo não encontrado
+Traceback (most recent call last):
+  File "app.py", line 160, in <module>
+    main()
+  File "services.py", line 12, in main
+    processar_dados()
+  File "database.py", line 97, in processar_dados
+    raise Exception("Erro simulado")
+Exception: Erro simulado
+2026-02-22 13:28:46 [WARNING] user=admin ip=48.79.131.97 - Uso de memória elevado
+2026-02-22 17:56:43 [INFO] user=ana ip=192.12.119.205 - Processamento iniciado
+2026-02-23 04:27:29 [INFO] user=backend ip=25.206.54.129 - Login realizado com sucesso
+2026-02-22 18:24:35 [ERROR] user=api_user ip=79.243.130.254 - Arquivo não encontrado
+Traceback (most recent call last):
+  File "app.py", line 87, in <module>
+    main()
+  File "services.py", line 76, in main
+    processar_dados()
+  File "database.py", line 100, in processar_dados
+    raise Exception("Erro simulado")
+Exception: Erro simulado
+2026-02-22 13:28:15 [ERROR] user=carlos ip=116.77.39.170 - Erro ao processar requisição
+Traceback (most recent call last):
+  File "app.py", line 160, in <module>
+    main()
+  File "services.py", line 184, in main
+    processar_dados()
+  File "database.py", line 125, in processar_dados
+    raise Exception("Erro simulado")
+Exception: Erro simulado
+2026-02-23 03:36:31 [INFO] user=backend ip=219.156.88.127 - Processamento iniciado
+2026-02-22 19:09:38 [INFO] user=joao ip=85.79.21.109 - Cache atualizado
+2026-02-23 08:06:44 [INFO] user=admin ip=239.55.114.33 - Arquivo carregado
+2026-02-22 15:46:30 [CRITICAL] user=api_user ip=77.86.249.190 - Falha ao conectar no banco de dados
+Traceback (most recent call last):
+  File "app.py", line 128, in <module>
+    main()
+  File "services.py", line 124, in main
+    processar_dados()
+  File "database.py", line 34, in processar_dados
+    raise Exception("Erro simulado")
+Exception: Erro simulado
+2026-02-22 22:16:10 [WARNING] user=carlos ip=111.77.55.43 - Requisição suspeita detectada
+2026-02-22 21:47:37 [ERROR] user=backend ip=114.170.235.197 - Timeout na API externa
+Traceback (most recent call last):
+  File "app.py", line 58, in <module>
+    main()
+  File "services.py", line 139, in main
+    processar_dados()
+  File "database.py", line 128, in processar_dados
+    raise Exception("Erro simulado")
+Exception: Erro simulado
+2026-02-23 08:07:31 [INFO] user=joao ip=97.118.127.102 - Cache atualizado
+2026-02-22 16:59:22 [INFO] user=admin ip=189.126.235.196 - Conexão estabelecida com o banco
+2026-02-23 07:50:05 [WARNING] user=admin ip=78.225.104.117 - Uso de memória elevado
+2026-02-23 10:52:24 [INFO] user=joao ip=225.32.164.118 - Processamento iniciado
+2026-02-23 09:12:59 [DEBUG] user=admin ip=94.28.23.88 - Requisição recebida
+2026-02-22 23:07:53 [INFO] user=sistema ip=217.222.252.166 - Login realizado com sucesso
+2026-02-23 03:15:05 [INFO] user=joao ip=63.219.146.106 - Login realizado com sucesso
+2026-02-23 01:21:02 [INFO] user=carlos ip=192.46.88.236 - Arquivo carregado
+2026-02-23 00:52:22 [WARNING] user=ana ip=48.1.172.89 - Uso de memória elevado
+2026-02-23 08:41:11 [INFO] user=backend ip=90.177.85.166 - Sessão encerrada
+2026-02-23 01:17:13 [DEBUG] user=carlos ip=7.17.139.74 - Requisição recebida
+2026-02-23 01:23:12 [INFO] user=api_user ip=5.224.191.184 - Cache atualizado
+2026-02-23 03:16:22 [CRITICAL] user=api_user ip=148.59.130.216 - Timeout na API externa
+Traceback (most recent call last):
+  File "app.py", line 98, in <module>
+    main()
+  File "services.py", line 139, in main
+    processar_dados()
+  File "database.py", line 37, in processar_dados
+    raise Exception("Erro simulado")
+Exception: Erro simulado
+2026-02-23 02:33:29 [WARNING] user=frontend ip=41.234.133.216 - Token próximo de expirar
+2026-02-22 13:44:52 [INFO] user=api_user ip=196.140.142.229 - Conexão estabelecida com o banco
+2026-02-23 05:07:19 [INFO] user=frontend ip=186.124.247.18 - Conexão estabelecida com o banco
+2026-02-22 21:41:50 [INFO] user=joao ip=12.170.99.88 - Conexão estabelecida com o banco
+2026-02-23 07:09:40 [INFO] user=api_user ip=20.108.14.83 - Arquivo carregado
+2026-02-22 22:15:14 [INFO] user=joao ip=160.35.38.164 - Login realizado com sucesso
+2026-02-22 12:48:37 [INFO] user=maria ip=58.154.216.103 - Conexão estabelecida com o banco
