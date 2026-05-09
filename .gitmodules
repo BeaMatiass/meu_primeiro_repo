@@ -1,0 +1,6 @@
+[submodule "lib/free-programming-books"]
+	path = lib/free-programming-books
+	url = https://github.com/EbookFoundation/free-programming-books.git
+[submodule "lib/build-your-own-x"]
+	path = lib/build-your-own-x
+	url = https://github.com/codecrafters-io/build-your-own-x.git
